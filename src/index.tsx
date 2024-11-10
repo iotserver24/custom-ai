@@ -115,13 +115,13 @@ Note: Donations are accepted to help us improve our services.`; // Updated syste
                 Reset
               </button>
             </form>
-            <div className="text-xs text-gray-500 mt-2">
+            {/* <div className="text-xs text-gray-500 mt-2">
               <p className="model-display">-</p>
               <input
                 type="hidden"
                 className="message-user message-assistant message-model"
               />
-            </div>
+            </div>*/}
           </div>
         </div>
         <div className="w-full md:w-80 mx-auto bg-chat-settings p-4 shadow-xl flex flex-col justify-between chat-settings" style={{ display: 'none' }}>
