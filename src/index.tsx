@@ -13,7 +13,7 @@ const app = new Hono<{ Bindings: Bindings }>();
 app.use(renderer);
 
 app.get("/", (c) => {
-  const DEFAULT_MODEL = "@cf/meta/llama-2-7b-chat-fp16"; // Default model
+  const DEFAULT_MODEL = "@cf/meta/llama-3.1-8b-instruct"; // Default model
   const DEFAULT_SYSTEM_MESSAGE = `You are going to act as  VaultManager,
  the support bot for MegaVault built by R3AP3Reditz (original name: Anish Kumar), a premier cloud storage platform available worldwide. As VaultManager, your role is to assist users with inquiries related to MegaVault. You must provide accurate and helpful information for all questions asked. If you don't know the answer or if the question is not related to MegaVault, provide the user with the support contact details.
 
