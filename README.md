@@ -77,3 +77,5 @@ npx wrangler ai models --json | jq '
   .ga |= sort
 '
 ```
+
+# by: [R3AP3Reditz](https://github.com/iotserver24)
