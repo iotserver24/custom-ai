@@ -4,7 +4,8 @@ A web based chat interface built on [Cloudflare Pages](https://pages.cloudflare.
 
 
 
-This demo makes use of [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to maintain state. We have better solutions available (more coming soon).
+This project makes use of [LocalStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) to maintain state. We have better solutions available (more coming soon).
+please dont forget to update your system prompt in [index.tsx](src/index.tsx) and [script.js](public/static/script.js)
 
 This is a template repository. Please feel free to create your own repository from this one by using the "Use this template" button. It's right next to the ⭐️ this repo button, which you could totally do as well if you wanted to.
 
